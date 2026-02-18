@@ -7,7 +7,7 @@
 
 A modern, SEO-first financial dashboard that tracks **100+ global assets** — stocks, cryptocurrencies, precious metals, and commodities — with real-time data, candlestick charts, and institutional-grade analytics.
 
-> **Live Demo:** [finnsays.vercel.app]((https://finnio.vercel.app/))
+> **Live Demo:** https://finnio.vercel.app/
 
 ---
 
