@@ -1,0 +1,23 @@
+.orb-container {
+    filter: drop-shadow(0 0 60px rgba(0, 40, 120, 0.2)) drop-shadow(0 0 120px rgba(0, 40, 120, 0.08));
+    transition: filter 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.orb-container:hover {
+    filter: drop-shadow(0 0 80px rgba(0, 50, 150, 0.3)) drop-shadow(0 0 160px rgba(0, 50, 150, 0.12));
+}
+
+/* GPU acceleration */
+.orb-container canvas {
+    will-change: transform;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .orb-container {
+        transform: scale(0.6);
+        transform-origin: center center;
+    }
+}
